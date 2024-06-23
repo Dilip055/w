@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+main{
+    padding: 25px;
+    
+}
+.search-box .search-bar{
+    width: 100%;
+    display: block;
+    background: gray;
+    outline: none;
+    appearance: none;
+    border-radius: 1px 1px 15px 15px;
+    box-shadow: 1px 1px 56px 4px gray;
+    
+   
+}
+.search-box{
+    margin:  0 0 80px;
+
+    
+}
+.search-bar{
+    background-color: #dedada;
+    padding: 12px;
+    margin-top: -25px;
+}
+.content{
+    border: 2px solid gray;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 463px;
+    border-radius: 76px 0;
+    padding: 35px;
+    box-shadow: 1px 1px 20px black;
+}
+.location{
+    font-size: 5rem;
+}
+.date{
+    font-size: 3rem;
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.weather-box{
+    gap: 28px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp, .weather{
+    font-size: 2rem;
+}
+@media(max-width:480px){
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .location{
+        font-size: 3rem;
+    }
+    .date{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+    .weather-box{
+        gap: 12px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        border: 2px solid gray;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 350px;
+        border-radius: 76px 0;
+        padding: 15px;
+        box-shadow: 1px 1px 20px black;
+    }
+    .temp, .weather{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:640px){
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .location{
+        font-size: 3rem;
+    }
+    .date{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+    .weather-box{
+        gap: 12px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        border: 2px solid gray;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 350px;
+        border-radius: 76px 0;
+        padding: 15px;
+        box-shadow: 1px 1px 20px black;
+    }
+    .temp, .weather{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:768px){
+   
+    .content{
+        border: 2px solid gray;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 390px;
+        border-radius: 76px 0;
+        padding: 20px;
+    }
+    
+}
