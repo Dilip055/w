@@ -15,11 +15,11 @@ main{
 .search-box .search-bar{
     width: 100%;
     display: block;
-    background: gray;
-    outline: none;
+    background: white;
+    
     appearance: none;
     border-radius: 1px 1px 15px 15px;
-    box-shadow: 1px 1px 56px 4px gray;
+    box-shadow: px 0px 56px 4px gray;
     
    
 }
